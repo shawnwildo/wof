@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script
+  src="http://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="app.js"></script>
+  <title>WOF</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <h1>Wheel of Fortune</h1>
+    </div>
+    <div id="hint">
+      This is the hint
+    </div>
+    <div id="board">
+    </div>
+    <div id="controls">
+      <input type="text" name="guess" id="guess" placeholder="Guess a letter">
+      <button type="submit" onclick="game.guess();">Guess<button>
+    </div>
+    <div id="guessed">
+    </div>         
+  </div>
+</body>
+</html>
